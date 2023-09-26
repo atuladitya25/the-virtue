@@ -1,0 +1,65 @@
+.img-box {
+    padding: 0 12px 0 24px;
+    width: min-content;
+}
+
+.logo-img {
+    height: 100%;
+}
+
+.nav-site-info {
+    display: flex;
+}
+
+.site-name-normal {
+    display: flex;
+    align-items: center;
+    font-size: 150%;
+    font-weight: 200;
+    transition: display 200ms linear;
+}
+
+.site-name-bold {
+    align-items: center;
+    font-weight: 200;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    transition: display 200ms linear;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: normal;
+    width: 100%;
+    background-position: 100px 200px;
+}
+
+.the {
+    font-size: 300%;
+}
+
+.tagline {
+    font-size: max(1vw, 100%);;
+    width: 100%;
+}
+
+.virtue {
+    font-size: max(5vw, 400%);
+}
+
+.nav-items {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.nav-items>a {
+    font-weight: 100;
+    font-size: 125%;
+}
+
+.hide-title {
+    display: none;
+}

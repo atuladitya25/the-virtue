@@ -1,0 +1,51 @@
+.text-container{
+
+}
+
+.contact-header{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #168aad;
+    border-radius: 12px 0 0 12px;
+    color: white;
+}
+
+.preface-text{
+    font-size: larger;
+    line-height: 30px;
+}
+
+.middle-text{
+    line-height: 20px;
+}
+
+.suffix-text{
+    font-size: xx-large;
+}
+
+.contact-form{
+    flex-grow: 1;
+    padding: 12px;
+    padding-bottom: 24px;
+}
+
+.form-input-group{
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.form-input-field{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.form-input-label{
+    font-size: 75%;
+    margin-bottom: 6px;
+    color: #168aad;
+}

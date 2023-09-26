@@ -1,0 +1,7 @@
+.banner-image{
+    height: calc(100vw/2);
+    border-radius: 12px;
+    max-height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
